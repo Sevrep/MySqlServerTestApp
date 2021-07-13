@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">MySqlServerTestApp</string>
     <string name="check_connection">Check Connection</string>
-    <string name="query_success">Query executed successfully.</string>
+    <string name="connection_success">Connection success</string>
     <string name="connection_failed">Connection to server failed.</string>
+    <string name="name">Name</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="query_insert_failed">Query insert failed</string>
+    <string name="query_insert_success">Query insert success</string>
+    <string name="query_update_failed">Query update failed</string>
+    <string name="query_update_success">Query update success</string>
+    <string name="query_delete_failed">Query delete failed</string>
+    <string name="query_delete_success">Query delete success</string>
+    <string name="query_select_failed">Query select failed</string>
+    <string name="query_select_success">Query select success</string>
+    <string name="delete">Delete</string>
+    <string name="address">Address:</string>
+    <string name="id">Id:</string>
 </resources>

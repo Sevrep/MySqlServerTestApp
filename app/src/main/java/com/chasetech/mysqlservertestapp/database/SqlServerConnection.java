@@ -17,11 +17,7 @@ public class SqlServerConnection {
             StrictMode.ThreadPolicy threadPolicy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(threadPolicy);
 
-//            Class.forName("net.sourceforge.jtds.jdbc.Driver");
-//            String ConnectionURL = "jdbc:jtds:sqlserver://" + "192.168.1.6" + "/" + "mysqlservertestapp_db";
-//            connection = DriverManager.getConnection(ConnectionURL, "sa", "1");
-
-            String ip = "192.168.1.6";
+            String ip = "192.168.1.22";
             String connectionurl = "jdbc:jtds:sqlserver://" + ip + "; instance = SQLEXPRESS; database = mysqlservertestapp_db;";
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
             connection = DriverManager.getConnection(connectionurl, "user", "1234");
